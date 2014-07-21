@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC49A2DE1979B70E0052CF94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC49A2DB1979B70E0052CF94 /* Default-568h@2x.png */; };
+		BC49A2DF1979B70E0052CF94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC49A2DC1979B70E0052CF94 /* Default.png */; };
+		BC49A2E01979B70E0052CF94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC49A2DD1979B70E0052CF94 /* Default@2x.png */; };
 		C22E4ACA18FCA83F007262B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E4AC918FCA83F007262B6 /* Foundation.framework */; };
 		C22E4ACC18FCA83F007262B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E4ACB18FCA83F007262B6 /* CoreGraphics.framework */; };
 		C22E4ACE18FCA83F007262B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E4ACD18FCA83F007262B6 /* UIKit.framework */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC49A2DB1979B70E0052CF94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BC49A2DC1979B70E0052CF94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BC49A2DD1979B70E0052CF94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C22E4AC618FCA83F007262B6 /* Atomized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atomized.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22E4AC918FCA83F007262B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C22E4ACB18FCA83F007262B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +120,9 @@
 		C22E4ACF18FCA83F007262B6 /* Atomized */ = {
 			isa = PBXGroup;
 			children = (
+				BC49A2DB1979B70E0052CF94 /* Default-568h@2x.png */,
+				BC49A2DC1979B70E0052CF94 /* Default.png */,
+				BC49A2DD1979B70E0052CF94 /* Default@2x.png */,
 				C22E4AD818FCA83F007262B6 /* AppDelegate.h */,
 				C22E4AD918FCA83F007262B6 /* AppDelegate.m */,
 				C22E4ADB18FCA83F007262B6 /* Main_iPhone.storyboard */,
@@ -232,8 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22E4AE018FCA83F007262B6 /* Main_iPad.storyboard in Resources */,
+				BC49A2DF1979B70E0052CF94 /* Default.png in Resources */,
 				C22E4AE518FCA83F007262B6 /* Images.xcassets in Resources */,
 				C22E4ADD18FCA83F007262B6 /* Main_iPhone.storyboard in Resources */,
+				BC49A2DE1979B70E0052CF94 /* Default-568h@2x.png in Resources */,
+				BC49A2E01979B70E0052CF94 /* Default@2x.png in Resources */,
 				C22E4AD418FCA83F007262B6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jandas Corporation (NHU6HN7P2L)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Flight Publishing, LLC. (CRL4YQ8S8Q)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Atomized/Atomized-Prefix.pch";
 				INFOPLIST_FILE = "Atomized/Atomized-Info.plist";
@@ -405,7 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jandas Corporation (NHU6HN7P2L)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Flight Publishing, LLC. (CRL4YQ8S8Q)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Atomized/Atomized-Prefix.pch";
 				INFOPLIST_FILE = "Atomized/Atomized-Info.plist";

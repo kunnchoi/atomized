@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
                 return true;
             }});
 
-        webView.loadUrl("http://qa.dev4.reyinteractive.com");
+        webView.loadUrl("http://app.atomized.com");
 
     }
 }

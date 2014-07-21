@@ -22,7 +22,7 @@
     
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSString* url = @"http://qa.dev4.reyinteractive.com";
+    NSString* url = @"http://app.atomized.com";
     NSURL* nsUrl = [NSURL URLWithString:url];
     NSURLRequest* request = [NSURLRequest requestWithURL:nsUrl cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:30];
     [self.mWebView loadRequest:request];
