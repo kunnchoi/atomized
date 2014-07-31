@@ -10,6 +10,11 @@
 		BC49A2DE1979B70E0052CF94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC49A2DB1979B70E0052CF94 /* Default-568h@2x.png */; };
 		BC49A2DF1979B70E0052CF94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC49A2DC1979B70E0052CF94 /* Default.png */; };
 		BC49A2E01979B70E0052CF94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC49A2DD1979B70E0052CF94 /* Default@2x.png */; };
+		BCCB9B00198A19B0008F86C0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB9AFF198A19B0008F86C0 /* Reachability.m */; };
+		BCCB9B03198A1ADD008F86C0 /* no-connection.html in Resources */ = {isa = PBXBuildFile; fileRef = BCCB9B01198A1ADD008F86C0 /* no-connection.html */; };
+		BCCB9B04198A1ADD008F86C0 /* no-connection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCB9B02198A1ADD008F86C0 /* no-connection.jpg */; };
+		BCCB9B06198A1CCA008F86C0 /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = BCCB9B05198A1CCA008F86C0 /* offline.html */; };
+		BCCB9B22198A227F008F86C0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCB9B21198A227F008F86C0 /* SystemConfiguration.framework */; };
 		C22E4ACA18FCA83F007262B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E4AC918FCA83F007262B6 /* Foundation.framework */; };
 		C22E4ACC18FCA83F007262B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E4ACB18FCA83F007262B6 /* CoreGraphics.framework */; };
 		C22E4ACE18FCA83F007262B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22E4ACD18FCA83F007262B6 /* UIKit.framework */; };
@@ -41,6 +46,12 @@
 		BC49A2DB1979B70E0052CF94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BC49A2DC1979B70E0052CF94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BC49A2DD1979B70E0052CF94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BCCB9AFE198A19B0008F86C0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BCCB9AFF198A19B0008F86C0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BCCB9B01198A1ADD008F86C0 /* no-connection.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "no-connection.html"; sourceTree = "<group>"; };
+		BCCB9B02198A1ADD008F86C0 /* no-connection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "no-connection.jpg"; sourceTree = "<group>"; };
+		BCCB9B05198A1CCA008F86C0 /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
+		BCCB9B21198A227F008F86C0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C22E4AC618FCA83F007262B6 /* Atomized.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atomized.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22E4AC918FCA83F007262B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C22E4ACB18FCA83F007262B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCB9B22198A227F008F86C0 /* SystemConfiguration.framework in Frameworks */,
 				C22E4ACC18FCA83F007262B6 /* CoreGraphics.framework in Frameworks */,
 				C22E4ACE18FCA83F007262B6 /* UIKit.framework in Frameworks */,
 				C22E4ACA18FCA83F007262B6 /* Foundation.framework in Frameworks */,
@@ -87,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCCB9AFD198A19B0008F86C0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB9AFE198A19B0008F86C0 /* Reachability.h */,
+				BCCB9AFF198A19B0008F86C0 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		C22E4ABD18FCA83E007262B6 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +130,7 @@
 		C22E4AC818FCA83F007262B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCCB9B21198A227F008F86C0 /* SystemConfiguration.framework */,
 				C22E4AC918FCA83F007262B6 /* Foundation.framework */,
 				C22E4ACB18FCA83F007262B6 /* CoreGraphics.framework */,
 				C22E4ACD18FCA83F007262B6 /* UIKit.framework */,
@@ -120,6 +142,10 @@
 		C22E4ACF18FCA83F007262B6 /* Atomized */ = {
 			isa = PBXGroup;
 			children = (
+				BCCB9B05198A1CCA008F86C0 /* offline.html */,
+				BCCB9B01198A1ADD008F86C0 /* no-connection.html */,
+				BCCB9B02198A1ADD008F86C0 /* no-connection.jpg */,
+				BCCB9AFD198A19B0008F86C0 /* Reachability */,
 				BC49A2DB1979B70E0052CF94 /* Default-568h@2x.png */,
 				BC49A2DC1979B70E0052CF94 /* Default.png */,
 				BC49A2DD1979B70E0052CF94 /* Default@2x.png */,
@@ -242,11 +268,14 @@
 			files = (
 				C22E4AE018FCA83F007262B6 /* Main_iPad.storyboard in Resources */,
 				BC49A2DF1979B70E0052CF94 /* Default.png in Resources */,
+				BCCB9B04198A1ADD008F86C0 /* no-connection.jpg in Resources */,
 				C22E4AE518FCA83F007262B6 /* Images.xcassets in Resources */,
 				C22E4ADD18FCA83F007262B6 /* Main_iPhone.storyboard in Resources */,
 				BC49A2DE1979B70E0052CF94 /* Default-568h@2x.png in Resources */,
 				BC49A2E01979B70E0052CF94 /* Default@2x.png in Resources */,
 				C22E4AD418FCA83F007262B6 /* InfoPlist.strings in Resources */,
+				BCCB9B06198A1CCA008F86C0 /* offline.html in Resources */,
+				BCCB9B03198A1ADD008F86C0 /* no-connection.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +296,7 @@
 			files = (
 				C22E4AE318FCA83F007262B6 /* ViewController.m in Sources */,
 				C22E4ADA18FCA83F007262B6 /* AppDelegate.m in Sources */,
+				BCCB9B00198A19B0008F86C0 /* Reachability.m in Sources */,
 				C22E4AD618FCA83F007262B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

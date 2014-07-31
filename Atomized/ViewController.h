@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic)       BOOL _connectedToInternet;
 @property (nonatomic, weak) IBOutlet UIWebView *mWebView;
 
 @end
